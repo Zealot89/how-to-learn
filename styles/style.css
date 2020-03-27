@@ -27,38 +27,38 @@
   background-position: center center;
   background-size: contain;
 }
-.header__logo_place_header {
+.logo_place_header {
   background-image: url(/images/logo.svg);
   position: absolute;
   top: 30px;
   left: 64px;
 }
-.title {
+.header__title {
   position: absolute;
   display: flex;
   width: 730px;
   left: 64px;
   justify-content: start;
-}
-.header-title {
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
   margin: 0;
 }
-.subtitle {
+.header-title {
+}
+.header__subtitle {
   display: block;
   position: absolute;
   left: 64px;
   bottom: 30px;
   z-index: 2;
   width: 388px;
-}
-.header-subtitle {
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
   margin: 0;
+}
+.header-subtitle {
 }
 .main-illustration {
   width: 765px;
@@ -101,6 +101,7 @@
   line-height: 1.2;
   font-size: 18px;
   color: #2f80ed;
+  margin: 0;
 }
 .two-columns__main-text {
   display: flex;
@@ -108,7 +109,6 @@
   flex-direction: column;
   width: 80%;
   min-width: 784px;
-
   line-height: 34px;
   font-size: 24px;
 }
@@ -128,26 +128,24 @@
   display: flex;
   justify-content: center;
   width: 60%;
-}
-.digits__section-title {
-  margin-bottom: 20px;
-}
-.section-title__text {
   font-size: 60px;
   line-height: 69px;
   font-weight: bold;
   margin: 0;
 }
+.digits__section-title {
+  margin-bottom: 20px;
+}
 .section-subtitle {
   display: flex;
   justify-content: center;
   width: 60%;
-}
-.section-subtitle__text {
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
   margin: 0;
+}
+.section-subtitle__text {
 }
 .table {
   margin-bottom: 100px;
