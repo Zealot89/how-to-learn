@@ -1,0 +1,7 @@
+@import url("./__section-title/digits__section-title.css");
+.digits {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

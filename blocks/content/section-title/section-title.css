@@ -1,0 +1,9 @@
+@import url("./_theme/sectiot-title_theme_dark.css");
+.section-title {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  font-size: 60px;
+  line-height: 69px;
+  font-weight: bold;
+}

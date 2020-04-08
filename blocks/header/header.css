@@ -1,0 +1,16 @@
+@import url("./__link/header__link.css");
+@import url("./__main-illustration/header__main-illustration.css");
+@import url("./__square-pic/header__square-pic.css");
+@import url("./__subtitle/header__subtitle.css");
+@import url("./__title/header__title.css");
+.header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  overflow: hidden;
+  /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
+}
