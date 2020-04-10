@@ -1,5 +1,5 @@
-@import url("../blocks/rotation/rotation.css");
 @import url("../vendor/normalize.css");
+@import url("../blocks/rotation/rotation.css");
 @import url("../blocks/rotation/rotation.css");
 @import url("../blocks/content/content.css");
 @import url("../blocks/header/header.css");
@@ -20,3 +20,4 @@
 @import url("../blocks/technics/technics.css");
 @import url("../blocks/two-columns/two-columns.css");
 @import url("../blocks/video/video.css");
+@import url("../blocks/link/link.css");
